@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Navbar />
 
-      <section className="max-w-6xl mx-auto mt-24 md:p-0 p-5">
+      <section className="max-w-6xl mx-auto my-24 md:p-0 p-5">
         <div className="flex flex-col md:flex-row md:items-center md:gap-x-40 gap-y-8">
           <div className="flex flex-col gap-y-8 items-center md:items-start">
             <img
@@ -35,15 +35,15 @@ export default function Home() {
               and visually appealing user interfaces.
             </p>
 
-            <div className="flex items-center gap-x-4">
+            <div className="flex md:flex-row flex-col gap-y-5 items-center gap-x-4 w-full">
               <button
-                className="bg-black font-medium text-white py-3 px-7 tracking-[-0.7px] rounded-full hover:scale-105 transition-all duration-300"
+                className="bg-black font-medium text-white py-3 px-7 tracking-[-0.7px] rounded-full hover:scale-105 transition-all duration-300 w-full md:w-auto"
                 onClick={handleDownload}
               >
                 Download CV
               </button>
 
-              <button className="bg-gray-200 text-black border font-medium tracking-[-0.7px] py-3 px-7 rounded-full hover:scale-105 transition-all duration-300">
+              <button className="bg-gray-200 text-black border font-medium tracking-[-0.7px] py-3 px-7 rounded-full hover:scale-105 transition-all duration-300 w-full md:w-auto">
                 See my works
               </button>
             </div>
