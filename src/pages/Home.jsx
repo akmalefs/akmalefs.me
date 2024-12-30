@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Navbar />
 
-      <section className="max-w-6xl mx-auto mt-24">
+      <section className="max-w-6xl mx-auto mt-24 md:p-0 p-5">
         <div className="flex flex-col md:flex-row md:items-center md:gap-x-40 gap-y-8">
           <div className="flex flex-col gap-y-8 items-center md:items-start">
             <img

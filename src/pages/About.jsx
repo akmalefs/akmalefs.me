@@ -57,7 +57,7 @@ const About = () => {
           <img
             src="/akashi.jpg"
             alt="Profile picture"
-            className="w-full max-w-xs md:max-w-sm lg:max-w-md h-auto rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl order-1 md:order-2"
+            className="w-full max-w-[10rem] sm:max-w-xs md:max-w-sm lg:max-w-md h-auto rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl order-1 md:order-2"
           />
         </div>
       </section>
