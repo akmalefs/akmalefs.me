@@ -5,16 +5,16 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="max-w-6xl mx-auto mt-8 px-6 md:px-0 absolute top-0 left-0 right-0 z-20">
+    <nav className="max-w-6xl mx-auto mt-8 px-6 md:px-0">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl text-white font-semibold tracking-[-0.7px]">
+        <h1 className="text-2xl text-black font-semibold tracking-[-0.7px]">
           akmalefs.
         </h1>
 
         <div className="md:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="text-white focus:outline-none"
+            className="text-black focus:outline-none"
           >
             {isMenuOpen ? (
               <svg
@@ -56,25 +56,25 @@ export default function Navbar() {
           }`}
         >
           <li>
-            <Link to="/" className="font-normal tracking-[-0.7px] text-black md:text-white">
+            <Link to="/" className="font-normal tracking-[-0.7px] text-black">
               Home
             </Link>
           </li>
           <li>
             <Link
               to="/about"
-              className="font-normal tracking-[-0.7px] text-black md:text-white"
+              className="font-normal tracking-[-0.7px] text-black"
             >
               About Me
             </Link>
           </li>
           <li>
-            <Link href="#" className="font-normal tracking-[-0.7px] text-black md:text-white">
+            <Link href="#" className="font-normal tracking-[-0.7px] text-black">
               Projects
             </Link>
           </li>
           <li>
-            <Link href="#" className="font-normal tracking-[-0.7px] text-black md:text-white">
+            <Link href="#" className="font-normal tracking-[-0.7px] text-black">
               Contact
             </Link>
           </li>
