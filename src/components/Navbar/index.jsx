@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="max-w-6xl mx-auto mt-8 px-6 md:px-0">
+    <nav className="max-w-6xl mx-auto p-6 md:px-0">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl text-black font-semibold tracking-[-0.7px]">
           akmalefs.
