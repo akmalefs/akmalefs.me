@@ -4,9 +4,10 @@ import Navbar from "../components/Navbar";
 const About = () => {
   const favoriteSong = [
     "https://open.spotify.com/embed/track/4e6TmHCC4PRUj75knNplNP?utm_source=generator&theme=0",
-    "https://open.spotify.com/embed/track/3qhlB30KknSejmIvZZLjOD?utm_source=generator&theme=0",
-    "https://open.spotify.com/embed/track/60wwxj6Dd9NJlirf84wr2c?utm_source=generator&theme=0",
+    "https://open.spotify.com/embed/track/5hkQFKFRrr5gKdbbxsg6Lj?utm_source=generator&theme=0",
+    "https://open.spotify.com/embed/track/0daEJMXc3b4ZMTnvtHpuTt?utm_source=generator&theme=0",
   ];
+
 
   return (
     <>
@@ -69,7 +70,7 @@ const About = () => {
 
         <div className="mt-24 flex flex-col gap-y-1 md:px-0 px-5 ">
           <div className="flex flex-col items-center md:items-start">
-            <h1 className="text-4xl text-black font-medium tracking-[-0.7px]">
+            <h1 className="md:text-4xl text-2xl text-black md:text-start text-center font-medium tracking-[-0.7px]">
               Currently My Favorite Song
             </h1>
             <p className="text-gray-500 text-center md:text-start mt-4 md:text-lg text-sm italic leading-relaxed max-w-2xl">
